@@ -39,5 +39,16 @@
 			"$2"
 		],
 		"description": "Log output to console"
+	},
+	"Stateless Component": {
+		"prefix": "slc",
+		"body": [
+			"import React from 'react';\n",
+			"const ${1:compName} = (props) => {",
+			"\t$0",
+			"}\n",
+			"export default ${1:compName};"
+		],
+		"description": "Log output to console"
 	}
 }
